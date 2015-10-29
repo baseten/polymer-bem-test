@@ -1,0 +1,27 @@
+<dom-module id="shared-styles">
+  <template>
+    <style>
+      .foo {
+        width: 100px;
+        height: 100px;
+        background: #0f0;
+      }
+
+      @media screen and (min-width: 48rem) {
+        .foo {
+          background: #f00;
+        }
+      }
+
+      .foo--bar {
+        background: #00f;
+      }
+
+      @media screen and (min-width: 48rem) {
+        .foo--bar {
+          background: #000;
+        }
+      }
+    </style>
+  </template>
+</dom-module>

@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "authors": [
+    "Alex Prokop <alex@baseten.co.uk>"
+  ],
+  "description": "Test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}
